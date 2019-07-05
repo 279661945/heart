@@ -1,0 +1,35 @@
+.tab{
+    min-width: 7.5rem;
+    height: 0.88rem;
+    background-color: #fff;
+    box-shadow: 0 0.04rem 0.32rem 0 rgba(251, 91, 33, 0.11);
+    padding-top: 0.88rem;
+}
+.tab .tab-q{
+    width: 7.5rem;
+    display: flex;
+    justify-content: left;
+    align-content: space-around;
+}
+.tab .tab-q li{
+    width: 1rem;
+    line-height: 0.88rem;
+    margin-left: 0.22rem;
+    font-size: rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.tab .tab-q li.active{
+    color: #ff5751;
+}
+.detail1-right{
+    position: relative;
+}
+.tab .tab-q li .shop-g{
+    width: 0.6rem;
+    height: 0.6rem;
+    background: rgb(94, 14, 14);
+    box-shadow: 0 0.07rem 0.32rem 0 rgba(251, 91, 33, 0.18);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+}
